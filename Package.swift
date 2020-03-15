@@ -14,5 +14,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "StringCaseConverter", dependencies: []),
+        .testTarget(name: "StringCaseConverterTests", dependencies: ["StringCaseConverter"])
     ]
 )
